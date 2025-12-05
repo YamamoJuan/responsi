@@ -3,7 +3,7 @@
 ---
 
 
-![Golang](https://go.dev/blog/go-brand/Go-Logo/PNG/Go-Logo_Blue.png)
+<img src="https://go.dev/blog/go-brand/Go-Logo/PNG/Go-Logo_Blue.png" width="160">
 
 Project ini berisi file golang tentang responsi BKPP
 
