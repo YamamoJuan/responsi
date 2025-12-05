@@ -71,17 +71,20 @@ func peminjamanBuku() {
 }
 
 func main() {
-	fmt.Println("ditulis dengan sepenuh hati oleh YamamoJuan (on github) \n")
+	fmt.Println("ditulis dengan sepenuh hati oleh YamamoJuan (https://github.com/YamamoJuan/responsi) \n")
 	time.Sleep(1 * time.Second)
 	
 	fmt.Println("Responsi opsi 1 (soal easy dan medium) \n")
 	time.Sleep(1 * time.Second)
-
+	
 	fmt.Println("Soal Data Tinggi Badan")
 	time.Sleep(700 * time.Millisecond)
 	dataTinggiBadan()
-
+	
 	fmt.Println("Soal Peminjaman Buku")
 	time.Sleep(700 * time.Millisecond)
 	peminjamanBuku()
+
+	fmt.Println("THX!")
+	time.Sleep(1 * time.Second)
 }
