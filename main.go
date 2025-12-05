@@ -1,34 +1,40 @@
-package main
+// // input angka genep atau ganjil
+// package main
+// import "fmt"
 
-import (
-	"fmt"
-	"log"
-	"net/http"
-	"os"
-)
+// func umur() {
+// 	var angka int
 
-func main() {
-	log.Print("starting server...")
-	http.HandleFunc("/", handler)
+// 	fmt.Println("masukin angka lo: ")
+// 	fmt.Scanln(&angka)
+// 	if angka % 2 == 0{
+// 		fmt.Printf("angka %d itu genep", angka)
+// 	}else{
+// 		fmt.Printf("angka %d itu ganjil", angka)
+// 	}
 
-	// Determine port for HTTP service.
-	port := os.Getenv("PORT")
-	if port == "" {
-		port = "3000"
-		log.Printf("defaulting to port %s", port)
-	}
+// }
 
-	// Start HTTP server.
-	log.Printf("listening on port %s", port)
-	if err := http.ListenAndServe(":"+port, nil); err != nil {
-		log.Fatal(err)
-	}
-}
+// func ah() {
+// 	var umur int
+// 	var gender string
 
-func handler(w http.ResponseWriter, r *http.Request) {
-	name := os.Getenv("NAME")
-	if name == "" {
-		name = "World"
-	}
-	fmt.Fprintf(w, "Hello %s!\n", name)
-}
+// 	fmt.Println("Masukkan umur lu")
+// 	fmt.Scan(&umur)
+// 	fmt.Println("Masukkan gender lu")
+// 	fmt.Scan(&gender)
+
+// 	if umur >= 18{
+// 		if gender == "Pria"{
+// 			fmt.Println("Pria Dewasa")
+// 		}else{
+// 			fmt.Println("Wanita Dewasa")
+// 		}
+// 	}
+// }
+
+// // func utama buat running func laen
+// func main() {
+// 	umur()
+// 	ah()
+// }
