@@ -1,6 +1,22 @@
-This is a minimal Go backend API service based on: https://cloud.google.com/run/docs/quickstarts/build-and-deploy/deploy-go-service
-
-Server should be run automatically when starting a workspace. Use `go run main.go` to run manually.
 
 
-app.diagrams.net
+---
+
+
+![Golang](https://go.dev/blog/go-brand/Go-Logo/PNG/Go-Logo_Blue.png)
+
+Project ini berisi file golang tentang responsi BKPP
+
+## Cara jalanin
+
+Masuk ke folder project dan jalankan file sesuai nama (comment file go lain agar func main tidak bertabrakan):
+
+```
+go run responsi.go
+go run responsi1.go
+go run responsi2.go
+```
+
+Project dibuat sebagai dokumentasi tugas responsi Mata Kuliah BKPP
+
+---
