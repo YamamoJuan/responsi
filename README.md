@@ -20,4 +20,4 @@ go run responsi2.go
 Project dibuat sebagai dokumentasi tugas responsi Mata Kuliah BKPP
 
 ---
-alpro sayang
+alpro
